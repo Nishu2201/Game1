@@ -1,0 +1,99 @@
+:root {
+    --primary-color: #007bff; 
+    --para-color: #f6f5c4;
+    --button-text:#180223; 
+    --Text-color: #fff; 
+    --Text-click:#ffea00;
+    --text-span:#ff8e00;
+  }
+
+
+.Scan{
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: var(--Text-click);
+    padding: 1vw 5vw;
+    padding-left: 3vw;
+}
+.ScanLft {
+    width: 70%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; 
+    /* background-color: #007bff; */
+    /* margin-left: 5vw; */
+  }
+  
+  .ScanerDice {
+    width: 100px; 
+    height: auto;
+    margin-right: 20px; 
+  }
+  
+  .Scan-text {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .Scan-h1, .Scan-h2 {
+    margin: 0; 
+    text-transform: uppercase;
+    font-size: 1.8vw;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    line-height: 2.5vw;
+  }
+  
+  /* Media query for responsiveness */
+  @media screen and (max-width: 768px) {
+    .ScanLft {
+      flex-direction: column; 
+      align-items: flex-start; 
+    }
+  
+    .ScanerDice {
+      margin-right: 0; 
+      margin-bottom: 10px; 
+    }
+  }
+  
+  
+  
+/* .ScanLft{
+width: 50%;
+height: 100%;
+text-align: right;
+    text-wrap: wrap;
+    font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+}
+.ScanerDice{
+    max-width: 100%;
+    position: absolute;
+    left: 0%;
+    padding: 0 2vw;
+    margin: 0 2vw;
+}
+.Scan-h1{
+    margin-left: 1vw;
+    position: relative;
+    right:10%;
+}
+.Scan-h2{
+    margin-left: 1vw;
+    right:10%;
+} */
+.ScanRght{
+width: 50%;
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: crimson;
+}
+.QrCode{
+    position: absolute;
+}
