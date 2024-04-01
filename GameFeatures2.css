@@ -1,0 +1,299 @@
+:root {
+    --primary-color: #007bff; 
+    --para-color: #f6f5c4;
+    --button-text:#180223; 
+    --Text-color: #fff; 
+    --Text-click:#ffea00;
+    --text-span:#ff8e00;
+    --box-green: #071b22;
+    --lightGreen: #3ce700;
+    --borderGreen: #1e3034;
+    --shadowColor: #092d14;
+  }
+
+  .Game2Top{
+    background-image: url('../../../Images/HomePic/bg.png');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    /* padding-top: 1.2vw; */
+    /* display: flex; */
+  }
+  .Line2{
+    position: absolute;
+    top: 2%;
+    left: 25%;
+}
+.Fets2Line-pic{
+    position: absolute;
+    top: 51%;
+}
+
+  .Fest2content{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 0vw;
+    padding: 0;
+    /* background-color: #f700ff; */
+    /* margin-top: -2vw; */
+}
+
+.Fes-h1{
+    text-align: left;
+    text-wrap: wrap;
+    font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+}
+.Fets2left{
+    position: relative;
+    left: 0;
+    height: 100%;
+    width: 50%;
+    /* background-color: rgb(1, 54, 54); */
+    padding: 0;
+    padding-left: 12vw;
+    padding-right: 1vw;
+    padding-right: 0.2vw;
+    color: var(--Text-color);
+}
+.lft2-imgs{
+    position: relative;
+    display: flex;
+    top: 0;
+   margin-top: 1vw;
+   /* margin-bottom: 5vw; */
+}
+.fest2pic1{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    margin-top: -8vw;
+    z-index: 2;
+}
+/* .Coins{
+    position: absolute;
+} */
+.FirstCoin{
+    position: absolute;
+    left: 0;
+    z-index: 3;
+    /* animation-delay: 25s; */
+    animation-duration: 10s;
+    animation: orbit 5s linear 35s infinite;
+    opacity: 0;
+}
+@keyframes orbit {
+    0% {
+        transform: rotate(0deg) translateX(0px) ;
+        opacity: 1;
+    }
+
+    100% {
+        transform:  translateX(20px) ;
+        opacity: 0;
+    }
+}
+.FirstCoin:nth-child(2){
+    left: 5%;
+    bottom:  100%;
+    z-index: 3;
+    animation-delay: 1s;
+}
+.FirstCoin:nth-child(3){
+    left: 9%;
+    bottom:   150%;
+    z-index: 3;
+    animation-delay: 1.5s;
+   
+}
+.FirstCoin:nth-child(4){
+    left: 16%;
+    bottom:   163%;
+    z-index: 3;
+    animation-delay: 1.8s;
+   
+}
+.FirstCoin:nth-child(5){
+    left: 25%;
+    bottom:   168%;
+    z-index: 3;
+    animation-delay: 2s;
+  
+}
+.FirstCoin:nth-child(6){
+    left: 31%;
+    bottom:   140%;
+    z-index: 3;
+    animation-delay: 2.2s;
+   
+}
+.FirstCoin:nth-child(7){
+    left: 38%;
+    bottom:   98%;
+    z-index: 3;
+    animation-delay: 2.5s;
+}
+.FirstCoin:nth-child(8){
+    left: 38%;
+    bottom:   25%;
+    z-index: 3;
+    animation-delay: 2.8s;
+   
+}
+.Arrow1{
+    display: block;
+    position: absolute;
+    bottom:  72%;
+    left: 9%;
+    z-index: 1;
+    /* animation: blink 3s linear infinite; */
+    /* background-color: #007bff; */
+}
+.Arrow2{
+    display: block;
+    position: absolute;
+    bottom:  70%;
+    left: 12%;
+    z-index: 1;
+    /* animation: blink 3s linear infinite; */
+    /* background-color: #007bff; */
+}
+.Coin-8{
+    position: absolute;
+    left: 24%;
+    opacity: 0;
+    /* animation-delay: 18s; */
+    animation-duration: 5s;
+    animation: orbit 5s linear 5s infinite alternate,
+    Up-Down 5s linear 15s infinite ;
+    /* animation: Up-Down 3s linear 20s infinite alternate; */
+     /* blink 3s linear infinite; */
+}
+.Coin-9{
+    position: absolute;
+    top: 150%;
+    left: 0;
+    opacity: 0;
+    /* animation-delay: 18s; */
+    animation-duration: 5s;
+    animation: orbit 5s linear 5s infinite alternate,
+    Up-Down 5s linear 18s infinite ;
+    /* blink 3s linear infinite; */
+}
+.Coin-10{
+    position: absolute;
+    top:110%;
+    left: 18%;
+    opacity: 0;
+    /* animation-delay: 18s; */
+    animation-duration: 5s;
+    animation: orbit 5s linear 5s infinite alternate,
+    Up-Down 5s linear 25s infinite ;
+    /* blink 3s linear infinite; */
+}
+.Coin-11{
+    position: absolute;
+    left: 29%;
+    top: 160%;
+    opacity: 0;
+    animation-delay:2.9s;
+    animation-duration: 5s;
+    animation: orbit 5s linear  infinite ;
+    /* Up-Down 5s linear 27s infinite ; */
+}
+@keyframes blink {
+    0%, 100% {opacity: 1;}
+    50% {opacity: 0;}
+  }
+
+.wallets{
+    display: inline;
+    position: absolute;
+    top: 30%;
+left: 25%;
+  }
+.fest2Pic2{
+    position: relative;
+   top: 5%;
+    left: 3.4%;
+    padding: 0;
+    z-index: 1;
+}
+.fest2Pic3{
+    position: absolute;
+    top: 0%;
+  left: 45%;
+    padding: 0;
+    z-index: 3;
+}
+.Fest2Text2{
+    display: block;
+    position: relative;
+    width: 60%;
+    height: auto;
+    margin-top: 12vw;
+    padding: 0vw 1vw;
+    border: 3px solid var(--borderGreen);
+    border-radius: 18px;
+    background-color: var(--box-green);
+    box-shadow: -10px 10px var(--shadowColor);
+}
+
+.text2-h3{
+    color: var(--lightGreen);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+.text2-p{
+    font-family: "Poppins", sans-serif;
+    font-size: 0.93vw;
+    /* font-weight: 200; */
+    font-style: normal;
+}
+.Fets2rght{
+    position: relative;
+    left: 0;
+    height: 100%;
+    width: 50%;
+    /* background-color: rgb(1, 54, 54); */
+    padding: 3vw 0;
+    padding-left: 12vw;
+    padding-right: 1vw;
+    padding-right: 0.2vw;
+    color: var(--Text-color);
+}
+.Fets2Text1{
+    display: block;
+    position: relative;
+    width: 60%;
+    height: auto;
+    padding: 0vw 1vw;
+    border: 3px solid var(--borderGreen);
+    border-radius: 18px;
+    background-color: var(--box-green);
+    box-shadow: 10px 10px var(--shadowColor);
+}
+.Fets2rght-imgs{
+    position: relative;
+    display: block;
+    padding-left: 5vw;
+   margin-top:12vw;
+    /* background-color: #007bff; */
+}
+.Char-pic{
+    display: block;
+    padding-bottom: 0;
+}
+@keyframes Up-Down {
+    
+    0% { transform: translateY(0px);
+    opacity: 1; }
+    100% { transform: translateY(20px); 
+        opacity: 0;}
+  }
